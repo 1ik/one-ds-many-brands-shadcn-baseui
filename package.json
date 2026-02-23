@@ -1,0 +1,15 @@
+{
+  "name": "baseui-shacn-cva-modern-fe",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2"
+  },
+  "packageManager": "pnpm@9.14.2"
+}

@@ -1,0 +1,7 @@
+@import "./tokens.css";
+@import "./vendors.css";
+@import "./radix-bridge.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

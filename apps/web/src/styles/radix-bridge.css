@@ -1,0 +1,11 @@
+/**
+ * Radix bridge: token-based overrides for Radix primitives.
+ * Use when a Radix part doesn't accept className or needs global token wiring.
+ * Radix components in this app are styled via className with hsl(var(--...)); this file is for edge cases.
+ */
+
+/* Optional: ensure Radix focus outline uses design token when not overridden by component */
+[data-radix-dialog-content]:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}

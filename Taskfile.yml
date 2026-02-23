@@ -1,0 +1,22 @@
+version: "3"
+
+tasks:
+  dev:
+    desc: Run Next.js dev server (apps/web)
+    cmds: [pnpm dev]
+
+  build:
+    desc: Build Next.js app
+    cmds: [pnpm build]
+
+  start:
+    desc: Start Next.js production server
+    cmds: [pnpm start]
+
+  lint:
+    desc: Lint all workspace packages
+    cmds: [pnpm lint]
+
+  install:
+    desc: Install dependencies with pnpm
+    cmds: [pnpm install]
